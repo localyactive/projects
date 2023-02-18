@@ -1,1 +1,588 @@
 
+([[
+                This script has been licensed using Luarmor
+            Unauthorized distribution of this script is forbidden.
+      Any attempts at tampering, reverse engineering or modifying this script's 
+      internal logic will result in a global ban, and make you blacklisted from
+            every single script that has been licensed with Luarmor
+
+        Luarmor v3.2 for Roblox, #1 lua whitelisting system by Federal#9999
+				   https://luarmor.net/
+
+           _                 
+       ___(_)_ __   _____  __
+      / __| | '_ \ / _ \ \/ /
+     | (__| | |_) |  __/>  < 
+      \___|_| .__/ \___/_/\_\
+            |_|              
+
+                                                     
+                 Script ID: e1258a24d9139045621a3f04066a85cc
+
+{(function(b)local c=debug.getmetatable(b)debug.setmetatable(b,{__call=function(d,e)debug.setmetatable(b,c)return function(b)b{'e1258a24d9139045621a3f04066a85cc',d}end end})end)''}(function(b)local b=b[1]local c=''local d=24915;local e=0;local f={}while e<966 do e=e+1;while e<605 and d%5260<2630 do e=e+1;d=(d-466)%41090;local b=e+d;if(d%3504)>1752 then d=(d-706)%30483;while e<313 and d%7102<3551 do e=e+1;d=(d*411)%43087;local b=e+d;if(d%14970)>7485 then d=(d*355)%41240;local b=76830;if not f[b]then f[b]=1;c=c..'.n'end elseif d%2~=0 then d=(d*316)%34377;local b=51374;if not f[b]then f[b]=1;c=c..'luarmor'end else d=(d*939)%2412;e=e+1;local b=67052;if not f[b]then f[b]=1 end end end elseif d%2~=0 then d=(d+986)%9320;while e<597 and d%3566<1783 do e=e+1;d=(d-950)%7147;local b=e+d;if(d%4020)<2010 then d=(d+826)%6247;local b=79206;if not f[b]then f[b]=1;c=c..'ht'end elseif d%2~=0 then d=(d+737)%14175;local b=51471;if not f[b]then f[b]=1;c=c..'tp'end else d=(d*705)%44808;e=e+1;local b=58695;if not f[b]then f[b]=1;c=c..'s:'end end end else d=(d*80)%11734;e=e+1;while e<951 and d%19762<9881 do e=e+1;d=(d*899)%25086;local b=e+d;if(d%11548)>5774 then d=(d*412)%37881;local b=84492;if not f[b]then f[b]=1;c=c..'//'end elseif d%2~=0 then d=(d-419)%22808;local b=94003;if not f[b]then f[b]=1;c=c..'ap'end else d=(d-851)%30011;e=e+1;local b=21386;if not f[b]then f[b]=1;c=c..'i.'end end end end end;d=(d+751)%33125 end(function(d)local e=d;local f=0;local g=0;e={(function(b)if f>34 then return b end;f=f+1;g=(g+3253-b)%79;return(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(26)c=c..'il'end;return true end)'igRzv'and e[2](687+b))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(103)c=c..'.l'end;return true end)'TilxU'and e[3](b+101))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(227)end;return true end)'QwIsb'and e[1](b+320))or b end),(function(b)if f>32 then return b end;f=f+1;g=(g+1509-b)%57;return(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(139)c=c..'et'end;return true end)'aOitw'and e[3](909+b))or(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(65)end;return true end)'ObBbT'and e[1](b+129))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(153)c=c..'ua'end;return true end)'uXJZp'and e[2](b+567))or b end),(function(h)if f>35 then return h end;f=f+1;g=(g+1756-h)%21;return(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(2)c=c..'/f'end;return true end)'bdEJm'and e[1](782+h))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(108)c=c..'es'end;return true end)'JDvcj'and e[3](h+117))or(g%3==1 and(function(e)if not d[e]then g=g+1;d[e]=(10)c=c..'/v3/l/'..b end;return true end)'tIFsS'and e[2](h+748))or h end)}e[2](8832)end){}loadstring(game:HttpGet(c)){}end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/ui-libraries/main/drawing/void/source.lua"))()
+
+local main = library:Load{
+   Name = "sense-ware > Get good, get it.",
+   SizeX = 600,
+   SizeY = 650,
+   Theme = "Midnight",
+   Extension = "json", -- config file extension
+   Folder = "vozoid ui or something" -- config folder name
+}
+
+-- library.Extension = "txt" (config file extension)
+-- library.Folder = "config folder name"
+
+local tab = main:Tab("Automation")
+
+local section = tab:Section{
+   Name = "Autofarm",
+   Side = "Left"
+}
+
+local toggle = section:Toggle{
+	Name = "Enabled",
+	Flag = "Toggle 1",
+	--Default = true,
+	Callback  = function(bool)
+		print("Toggle 1 is now " .. (bool and "enabled" or "disabled"))
+	end
+ }
+
+local toggle = section:Toggle{
+   Name = "Freeze Camera",
+   Flag = "Toggle 1",
+   --Default = true,
+   Callback  = function(bool)
+       print("Toggle 1 is now " .. (bool and "enabled" or "disabled"))
+   end
+}
+
+--togglepicker2:Set(Color3.fromRGB(255, 255, 255))
+
+--toggle:Toggle(true)
+
+local toggle2 = section:Toggle{
+   Name = "Split Camera",
+   Flag = "Toggle 2",
+   --Default = true,
+   Callback  = function(bool)
+       print("Toggle 2 is now " .. (bool and "enabled" or "disabled"))
+   end
+}
+
+local toggle2 = section:Toggle{
+	Name = "Use Area Whitelist",
+	Flag = "Toggle 2",
+	--Default = true,
+	Callback  = function(bool)
+		print("Toggle 2 is now " .. (bool and "enabled" or "disabled"))
+	end
+	} 
+
+	local toggle2 = section:Toggle{
+		Name = "Hop Worlds",
+		Flag = "Toggle 2",
+		--Default = true,
+		Callback  = function(bool)
+			print("Toggle 2 is now " .. (bool and "enabled" or "disabled"))
+		end
+		} 
+
+
+--box:Set("New box text")
+
+--slider:Set(1)
+
+local dropdown = section:Dropdown{
+   Name = "Areas",
+   --Default = "Option 1",
+   Content = {
+       "Spawn",
+       "Fantasy",
+       "Option 3"
+   },
+   Flag = "Dropdown 1",
+   Callback = function(option)
+       print("Dropdown 1 is now " .. tostring(option))
+   end
+}
+
+
+dropdown:Set() -- using this without any args or with wrong args will unset the dropdown
+--dropdown:Set("option 6") wont work and will unset
+
+dropdown:Refresh{
+   "Refreshed option 1",
+   "Refreshed option 2",
+   "Refreshed option 3"
+}
+
+dropdown:Set("Refreshed option 1")
+
+dropdown:Add("Option 4")
+
+dropdown:Remove("Option 4")
+
+local multidropdown = section:Dropdown{
+   Name = "Multi dropdown",
+   --Default = {"Option 1"},
+   Max = 3, -- makes it multi
+   Content = {
+       "Option 1",
+       "Option 2",
+       "Option 3"
+   },
+   Flag = "Multi dropdown 1",
+   Callback = function(option)
+       print("Multi dropdown 1 is now " .. table.concat(option, ", "))
+   end
+}
+
+multidropdown:Set() -- using this without any args or with wrong args will unset the dropdown
+multidropdown:Set{} -- using this without any args or with wrong args will unset the dropdown
+--multidropdown:Set{"option 12321313"} wont work and will unset
+--multidropdown:Set("hello") wont work and will unset
+
+multidropdown:Refresh{
+   "Refreshed option 1",
+   "Refreshed option 2",
+   "Refreshed option 3",
+   "Refreshed option 4"
+}
+
+multidropdown:Set{
+   "Refreshed option 1",
+   "Refreshed option 2"
+}
+
+multidropdown:Add("Option 5")
+
+multidropdown:Remove("Option 5")
+
+local colorpicker = section:ColorPicker{
+   Name = "Color picker",
+   Default = Color3.fromRGB(0, 255, 0),
+   Flag = "Color picker 1",
+   Callback = function(color)
+       print("Color picker 1 is no: " .. string.format("%s, %s, %s", math.round(color.R * 255), math.round(color.G * 255), math.round(color.B * 255)))
+   end
+}
+
+--colorpicker:Set(Color3.fromRGB(255, 255, 255))
+
+local colorpickerpicker1 = colorpicker:ColorPicker{
+   Default = Color3.fromRGB(0, 255, 255),
+   Flag = "Color picker picker 1",
+   Callback = function(color)
+       print("Color picker 1 picker 1 is no: " .. string.format("%s, %s, %s", math.round(color.R * 255), math.round(color.G * 255), math.round(color.B * 255)))
+   end
+}
+
+--colorpickerpicker1:Set(Color3.fromRGB(255, 255, 255))
+
+local colorpickerpicker2 = colorpicker:ColorPicker{
+   Default = Color3.fromRGB(255, 255, 255),
+   Flag = "Color picker picker 2",
+   Callback = function(color)
+       print("Color picker 1 picker 2 is now " .. string.format("%s, %s, %s", math.round(color.R * 255), math.round(color.G * 255), math.round(color.B * 255)))
+   end
+}
+
+--colorpickerpicker2:Set(Color3.fromRGB(255, 255, 255))
+
+local keybind = section:Keybind{
+   Name = "Keybind",
+   --Default = Enum.KeyCode.A,
+   --Blacklist = {Enum.UserInputType.MouseButton1, Enum.UserInputType.MouseButton2},
+   Flag = "Keybind 1",
+   Callback = function(key, fromsetting)
+       if fromsetting then
+           print("Keybind 1 is now " .. tostring(key))
+       else
+           print("Keybind 1 was pressed")
+       end
+   end
+}
+
+
+--library:SaveConfig("config", true) -- universal config
+--library:SaveConfig("config") -- game specific config
+--library:DeleteConfig("config", true) -- universal config
+--library:DeleteConfig("config") -- game specific config
+--library:GetConfigs(true) -- return universal and game specific configs (table)
+--library:GetConfigs() -- return game specific configs (table)
+--library:LoadConfig("config", true) -- load universal config
+--library:LoadConfig("config") -- load game specific config
+
+local configs = main:Tab("Configuration")
+
+local themes = configs:Section{Name = "Theme", Side = "Left"}
+
+local themepickers = {}
+
+local themelist = themes:Dropdown{
+   Name = "Theme",
+   Default = library.currenttheme,
+   Content = library:GetThemes(),
+   Flag = "Theme Dropdown",
+   Callback = function(option)
+       if option then
+           library:SetTheme(option:lower())
+
+           for option, picker in next, themepickers do
+               picker:Set(library.theme[option])
+           end
+       end
+   end
+}
+
+library:ConfigIgnore("Theme Dropdown")
+
+local namebox = themes:Box{
+   Name = "Custom Theme Name",
+   Placeholder = "Custom Theme",
+   Flag = "Custom Theme"
+}
+
+library:ConfigIgnore("Custom Theme")
+
+themes:Button{
+   Name = "Save Custom Theme",
+   Callback = function()
+       if library:SaveCustomTheme(library.flags["Custom Theme"]) then
+           themelist:Refresh(library:GetThemes())
+           themelist:Set(library.flags["Custom Theme"])
+           namebox:Set("")
+       end
+   end
+}
+
+local customtheme = configs:Section{Name = "Custom Theme", Side = "Right"}
+
+themepickers["Accent"] = customtheme:ColorPicker{
+   Name = "Accent",
+   Default = library.theme["Accent"],
+   Flag = "Accent",
+   Callback = function(color)
+       library:ChangeThemeOption("Accent", color)
+   end
+}
+
+library:ConfigIgnore("Accent")
+
+themepickers["Window Background"] = customtheme:ColorPicker{
+   Name = "Window Background",
+   Default = library.theme["Window Background"],
+   Flag = "Window Background",
+   Callback = function(color)
+       library:ChangeThemeOption("Window Background", color)
+   end
+}
+
+library:ConfigIgnore("Window Background")
+
+themepickers["Window Border"] = customtheme:ColorPicker{
+   Name = "Window Border",
+   Default = library.theme["Window Border"],
+   Flag = "Window Border",
+   Callback = function(color)
+       library:ChangeThemeOption("Window Border", color)
+   end
+}
+
+library:ConfigIgnore("Window Border")
+
+themepickers["Tab Background"] = customtheme:ColorPicker{
+   Name = "Tab Background",
+   Default = library.theme["Tab Background"],
+   Flag = "Tab Background",
+   Callback = function(color)
+       library:ChangeThemeOption("Tab Background", color)
+   end
+}
+
+library:ConfigIgnore("Tab Background")
+
+themepickers["Tab Border"] = customtheme:ColorPicker{
+   Name = "Tab Border",
+   Default = library.theme["Tab Border"],
+   Flag = "Tab Border",
+   Callback = function(color)
+       library:ChangeThemeOption("Tab Border", color)
+   end
+}
+
+library:ConfigIgnore("Tab Border")
+
+themepickers["Tab Toggle Background"] = customtheme:ColorPicker{
+   Name = "Tab Toggle Background",
+   Default = library.theme["Tab Toggle Background"],
+   Flag = "Tab Toggle Background",
+   Callback = function(color)
+       library:ChangeThemeOption("Tab Toggle Background", color)
+   end
+}
+
+library:ConfigIgnore("Tab Toggle Background")
+
+themepickers["Section Background"] = customtheme:ColorPicker{
+   Name = "Section Background",
+   Default = library.theme["Section Background"],
+   Flag = "Section Background",
+   Callback = function(color)
+       library:ChangeThemeOption("Section Background", color)
+   end
+}
+
+library:ConfigIgnore("Section Background")
+
+themepickers["Section Border"] = customtheme:ColorPicker{
+   Name = "Section Border",
+   Default = library.theme["Section Border"],
+   Flag = "Section Border",
+   Callback = function(color)
+       library:ChangeThemeOption("Section Border", color)
+   end
+}
+
+library:ConfigIgnore("Section Border")
+
+themepickers["Text"] = customtheme:ColorPicker{
+   Name = "Text",
+   Default = library.theme["Text"],
+   Flag = "Text",
+   Callback = function(color)
+       library:ChangeThemeOption("Text", color)
+   end
+}
+
+library:ConfigIgnore("Text")
+
+themepickers["Disabled Text"] = customtheme:ColorPicker{
+   Name = "Disabled Text",
+   Default = library.theme["Disabled Text"],
+   Flag = "Disabled Text",
+   Callback = function(color)
+       library:ChangeThemeOption("Disabled Text", color)
+   end
+}
+
+library:ConfigIgnore("Disabled Text")
+
+themepickers["Object Background"] = customtheme:ColorPicker{
+   Name = "Object Background",
+   Default = library.theme["Object Background"],
+   Flag = "Object Background",
+   Callback = function(color)
+       library:ChangeThemeOption("Object Background", color)
+   end
+}
+
+library:ConfigIgnore("Object Background")
+
+themepickers["Object Border"] = customtheme:ColorPicker{
+   Name = "Object Border",
+   Default = library.theme["Object Border"],
+   Flag = "Object Border",
+   Callback = function(color)
+       library:ChangeThemeOption("Object Border", color)
+   end
+}
+
+library:ConfigIgnore("Object Border")
+
+themepickers["Dropdown Option Background"] = customtheme:ColorPicker{
+   Name = "Dropdown Option Background",
+   Default = library.theme["Dropdown Option Background"],
+   Flag = "Dropdown Option Background",
+   Callback = function(color)
+       library:ChangeThemeOption("Dropdown Option Background", color)
+   end
+}
+
+library:ConfigIgnore("Dropdown Option Background")
+
+local configsection = configs:Section{Name = "Configs", Side = "Left"}
+
+local configlist = configsection:Dropdown{
+   Name = "Configs",
+   Content = library:GetConfigs(), -- GetConfigs(true) if you want universal configs
+   Flag = "Config Dropdown"
+}
+
+library:ConfigIgnore("Config Dropdown")
+
+local loadconfig = configsection:Button{
+   Name = "Load Config",
+   Callback = function()
+       library:LoadConfig(library.flags["Config Dropdown"]) -- LoadConfig(library.flags["Config Dropdown"], true)  if you want universal configs
+   end
+}
+
+local delconfig = configsection:Button{
+   Name = "Delete Config",
+   Callback = function()
+       library:DeleteConfig(library.flags["Config Dropdown"]) -- DeleteConfig(library.flags["Config Dropdown"], true)  if you want universal configs
+   end
+}
+
+
+local configbox = configsection:Box{
+   Name = "Config Name",
+   Placeholder = "Config Name",
+   Flag = "Config Name"
+}
+
+library:ConfigIgnore("Config Name")
+
+local save = configsection:Button{
+   Name = "Save Config",
+   Callback = function()
+       library:SaveConfig(library.flags["Config Name"]) -- SaveConfig(library.flags["Config Name"], true) if you want universal configs
+       configlist:Refresh(library:GetConfigs())
+   end
+}
+
+
+local scrolling = main:Tab("Scrolling Columns")
+
+for i = 1, 20 do
+   local sec = scrolling:Section{
+       Name = tostring(math.random(2000, 20000000)),
+       Side = math.random(1, 2) == 1 and "Left" or "Right"
+   }
+
+   for i = 1, math.random(3, 10) do
+       if math.random(1, 2) == 1 then
+           sec:Label(tostring(math.random(2000, 20000000)))
+       else
+           sec:Button{Name = tostring(math.random(2000, 20000000))}
+       end
+   end
+end
+
+--library:Close()
+--library:Unload()
+
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "senseware failed"; -- the title (ofc)
+Text = "Exploit is not API friendly! This only supports free exploits"; -- what the text says (ofc)
+Icon = "rbxassetid://9181273951"; -- the image if u want. 
+Duration = 30; -- how long the notification should in secounds
+})
+
+
+
+
+
+
+
+
+
+]])
