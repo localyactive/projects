@@ -122,7 +122,7 @@
 
 
 
-
+]])
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/ui-libraries/main/drawing/void/source.lua"))()
 
 local main = library:Load{
@@ -577,12 +577,3 @@ Icon = "rbxassetid://9181273951"; -- the image if u want.
 Duration = 30; -- how long the notification should in secounds
 })
 
-
-
-
-
-
-
-
-
-]])
