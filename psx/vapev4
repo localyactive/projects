@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("skeet.cc/script"))()
+-- loadstring(game:HttpGet("skeet.cc/script"))()
       
       
       
